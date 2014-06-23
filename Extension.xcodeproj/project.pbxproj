@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88477F6F1950BD4E003D36E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88477F6E1950BD4E003D36E3 /* main.m */; };
+		88477F721950BD4E003D36E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88477F711950BD4E003D36E3 /* AppDelegate.m */; };
+		88477F751950BD4E003D36E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88477F741950BD4E003D36E3 /* ViewController.m */; };
+		88477F781950BD4E003D36E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88477F761950BD4E003D36E3 /* Main.storyboard */; };
+		88477F7A1950BD4E003D36E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88477F791950BD4E003D36E3 /* Images.xcassets */; };
+		88477FC11950C59F003D36E3 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88477FC01950C59F003D36E3 /* PhotosUI.framework */; };
+		88477FC31950C59F003D36E3 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88477FC21950C59F003D36E3 /* Photos.framework */; };
+		88477FC91950C59F003D36E3 /* PhotoEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88477FC81950C59F003D36E3 /* PhotoEditingViewController.m */; };
+		88477FCB1950C59F003D36E3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88477FCA1950C59F003D36E3 /* MainInterface.storyboard */; };
+		88477FCE1950C59F003D36E3 /* facebook.Extension.NSLondonWatermark.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 88477FBF1950C59F003D36E3 /* facebook.Extension.NSLondonWatermark.appex */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88477FCC1950C59F003D36E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88477F611950BD4E003D36E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88477FBE1950C59F003D36E3;
+			remoteInfo = NSLondonWatermark;
+		};
+		88477FCF1950C59F003D36E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88477F611950BD4E003D36E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88477FBE1950C59F003D36E3;
+			remoteInfo = NSLondonWatermark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88477FA21950BDA3003D36E3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				88477FCE1950C59F003D36E3 /* facebook.Extension.NSLondonWatermark.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		88477F691950BD4E003D36E3 /* Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Extension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88477F6D1950BD4E003D36E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88477F6E1950BD4E003D36E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88477F701950BD4E003D36E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88477F711950BD4E003D36E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88477F731950BD4E003D36E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88477F741950BD4E003D36E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88477F771950BD4E003D36E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88477F791950BD4E003D36E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88477FA91950BFA7003D36E3 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		88477FBF1950C59F003D36E3 /* facebook.Extension.NSLondonWatermark.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = facebook.Extension.NSLondonWatermark.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		88477FC01950C59F003D36E3 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		88477FC21950C59F003D36E3 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		88477FC61950C59F003D36E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88477FC71950C59F003D36E3 /* PhotoEditingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoEditingViewController.h; sourceTree = "<group>"; };
+		88477FC81950C59F003D36E3 /* PhotoEditingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoEditingViewController.m; sourceTree = "<group>"; };
+		88477FCA1950C59F003D36E3 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88477F661950BD4E003D36E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88477FBC1950C59F003D36E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88477FC11950C59F003D36E3 /* PhotosUI.framework in Frameworks */,
+				88477FC31950C59F003D36E3 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88477F601950BD4E003D36E3 = {
+			isa = PBXGroup;
+			children = (
+				88477F6B1950BD4E003D36E3 /* Extension */,
+				88477FC41950C59F003D36E3 /* NSLondonWatermark */,
+				88477FA81950BFA7003D36E3 /* Frameworks */,
+				88477F6A1950BD4E003D36E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88477F6A1950BD4E003D36E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88477F691950BD4E003D36E3 /* Extension.app */,
+				88477FBF1950C59F003D36E3 /* facebook.Extension.NSLondonWatermark.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88477F6B1950BD4E003D36E3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				88477F701950BD4E003D36E3 /* AppDelegate.h */,
+				88477F711950BD4E003D36E3 /* AppDelegate.m */,
+				88477F731950BD4E003D36E3 /* ViewController.h */,
+				88477F741950BD4E003D36E3 /* ViewController.m */,
+				88477F761950BD4E003D36E3 /* Main.storyboard */,
+				88477F791950BD4E003D36E3 /* Images.xcassets */,
+				88477F6C1950BD4E003D36E3 /* Supporting Files */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		88477F6C1950BD4E003D36E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88477F6D1950BD4E003D36E3 /* Info.plist */,
+				88477F6E1950BD4E003D36E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88477FA81950BFA7003D36E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88477FA91950BFA7003D36E3 /* NotificationCenter.framework */,
+				88477FC01950C59F003D36E3 /* PhotosUI.framework */,
+				88477FC21950C59F003D36E3 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88477FC41950C59F003D36E3 /* NSLondonWatermark */ = {
+			isa = PBXGroup;
+			children = (
+				88477FC71950C59F003D36E3 /* PhotoEditingViewController.h */,
+				88477FC81950C59F003D36E3 /* PhotoEditingViewController.m */,
+				88477FCA1950C59F003D36E3 /* MainInterface.storyboard */,
+				88477FC51950C59F003D36E3 /* Supporting Files */,
+			);
+			path = NSLondonWatermark;
+			sourceTree = "<group>";
+		};
+		88477FC51950C59F003D36E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88477FC61950C59F003D36E3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88477F681950BD4E003D36E3 /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88477F891950BD4E003D36E3 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				88477F651950BD4E003D36E3 /* Sources */,
+				88477F661950BD4E003D36E3 /* Frameworks */,
+				88477F671950BD4E003D36E3 /* Resources */,
+				88477FA21950BDA3003D36E3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88477FCD1950C59F003D36E3 /* PBXTargetDependency */,
+				88477FD01950C59F003D36E3 /* PBXTargetDependency */,
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = 88477F691950BD4E003D36E3 /* Extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88477FBE1950C59F003D36E3 /* NSLondonWatermark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88477FD11950C59F003D36E3 /* Build configuration list for PBXNativeTarget "NSLondonWatermark" */;
+			buildPhases = (
+				88477FBB1950C59F003D36E3 /* Sources */,
+				88477FBC1950C59F003D36E3 /* Frameworks */,
+				88477FBD1950C59F003D36E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSLondonWatermark;
+			productName = NSLondonWatermark;
+			productReference = 88477FBF1950C59F003D36E3 /* facebook.Extension.NSLondonWatermark.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88477F611950BD4E003D36E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Michael Slater";
+				TargetAttributes = {
+					88477F681950BD4E003D36E3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					88477FBE1950C59F003D36E3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 88477F641950BD4E003D36E3 /* Build configuration list for PBXProject "Extension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88477F601950BD4E003D36E3;
+			productRefGroup = 88477F6A1950BD4E003D36E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88477F681950BD4E003D36E3 /* Extension */,
+				88477FBE1950C59F003D36E3 /* NSLondonWatermark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88477F671950BD4E003D36E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88477F781950BD4E003D36E3 /* Main.storyboard in Resources */,
+				88477F7A1950BD4E003D36E3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88477FBD1950C59F003D36E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88477FCB1950C59F003D36E3 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88477F651950BD4E003D36E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88477F751950BD4E003D36E3 /* ViewController.m in Sources */,
+				88477F721950BD4E003D36E3 /* AppDelegate.m in Sources */,
+				88477F6F1950BD4E003D36E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88477FBB1950C59F003D36E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88477FC91950C59F003D36E3 /* PhotoEditingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88477FCD1950C59F003D36E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88477FBE1950C59F003D36E3 /* NSLondonWatermark */;
+			targetProxy = 88477FCC1950C59F003D36E3 /* PBXContainerItemProxy */;
+		};
+		88477FD01950C59F003D36E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88477FBE1950C59F003D36E3 /* NSLondonWatermark */;
+			targetProxy = 88477FCF1950C59F003D36E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88477F761950BD4E003D36E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88477F771950BD4E003D36E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88477F871950BD4E003D36E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88477F881950BD4E003D36E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88477F8A1950BD4E003D36E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88477F8B1950BD4E003D36E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88477FD21950C59F003D36E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSLondonWatermark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "facebook.Extension.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		88477FD31950C59F003D36E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NSLondonWatermark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "facebook.Extension.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88477F641950BD4E003D36E3 /* Build configuration list for PBXProject "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88477F871950BD4E003D36E3 /* Debug */,
+				88477F881950BD4E003D36E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88477F891950BD4E003D36E3 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88477F8A1950BD4E003D36E3 /* Debug */,
+				88477F8B1950BD4E003D36E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88477FD11950C59F003D36E3 /* Build configuration list for PBXNativeTarget "NSLondonWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88477FD21950C59F003D36E3 /* Debug */,
+				88477FD31950C59F003D36E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88477F611950BD4E003D36E3 /* Project object */;
+}
