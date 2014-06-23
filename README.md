@@ -13,3 +13,6 @@ This is very inefficient, if you actually build one of these try not to do all t
 6. Click 'More'
 7. Turn the extension on.
 8. Try it out!
+
+
+We (@michaelslater and @dominicfreeston) built this in 1 hour at an NSLondon hackathon, it is not good!
