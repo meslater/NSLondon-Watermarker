@@ -7,7 +7,7 @@ This is very inefficient, if you actually build one of these try not to do all t
 
 1. Check it out
 2. Run it in the simulator
-3. Got to Photos
+3. Hit home and open the Photos app
 4. Pick a photo and hit 'Edit'
 5. Click the (...) button in the top left
 6. Click 'More'
